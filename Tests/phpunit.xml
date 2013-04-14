@@ -1,0 +1,13 @@
+<phpunit
+  forceCoversAnnotation="true"
+  mapTestClassNameToCoveredClassName="false"
+  colors="false"
+  syntaxCheck="true"
+  timeoutForSmallTests="2"
+  strict="true">
+
+  <php>
+  <includePath>../objects/</includePath>
+  <ini name="error_reporting" value="E_ALL" />
+  </php>
+</phpunit>
